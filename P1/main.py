@@ -140,6 +140,9 @@ class automa:
         print("TABLA de TRANCISCIONES")
         print(np.array(self.tabla, dtype=object)[:, indices])# Solo se imprimen las columnas que pertenezcan al alfabeto y se pasa a objeto ya que af es un objeto
 
+        for i in self.d:
+            print(f'{i}')
+
 
 if __name__ == '__main__':
     menu = True
